@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(143, 143, 186);
+}
+
+header{
+    background-color: white;
+    height: 100px;
+}
+
+.row{
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.box_difficult{
+    width:calc(100% / 7);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.box_medium{
+    width: calc(100% / 9);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.box_easy{
+    width: calc(100% / 10);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.active{
+    background-color: lightblue;
+}
+
+.bomb{
+    background-color: red;
+}
+
